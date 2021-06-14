@@ -70,9 +70,9 @@ public class MainController {
         return ch.toString();
     }
 
-    @GetMapping("/traduce/{sentence}")
+   /* @GetMapping("/traduce/{sentence}")
     public String translateSentence(@PathVariable String sentence){
         String transSentence = tService.getTranslation(sentence);
         return transSentence;
-    }
+    }*/
 }
